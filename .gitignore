@@ -1,0 +1,84 @@
+# Miscellaneous
+*.class
+*.log
+*.pyc
+*.swp
+.DS_Store
+.atom/
+.build/
+.buildlog/
+.history
+.svn/
+.swiftpm/
+migrate_working_dir/
+
+# IntelliJ / Android Studio related
+*.iml
+*.ipr
+*.iws
+.idea/
+
+# VS Code settings (optional, uncomment if you don't want to track it)
+# .vscode/
+
+# Flutter/Dart/Pub related files
+**/doc/api/
+**/ios/Flutter/.last_build_id
+.dart_tool/
+.flutter-plugins
+.flutter-plugins-dependencies
+.flutter-versions
+.pub-cache/
+.pub/
+/build/
+
+# Xcode related (iOS/macOS)
+ios/Flutter/App.framework
+ios/Flutter/Flutter.podspec
+ios/Flutter/Generated.xcconfig
+ios/Flutter/ephemeral/
+ios/.symlinks/
+ios/Pods/
+ios/.dart_tool/
+ios/.metadata
+ios/Runner.xcworkspace/
+ios/Runner/Info.plist.lock
+
+# Android related
+android/.gradle/
+android/app/debug/
+android/app/profile/
+android/app/release/
+android/key.properties
+android/app/google-services.json
+android/app/src/debug/
+android/app/src/profile/
+android/app/src/release/
+
+# Symbolication related
+app.*.symbols
+
+# Obfuscation related
+app.*.map.json
+
+# Firebase-related
+firebase_app_id_file.json
+*.firebase/
+google-services.json
+ios/Runner/GoogleService-Info.plist
+
+# Flutter build artifacts
+*.lock
+*.so
+*.dill
+*.snapshot
+*.flutter-plugins-dependencies
+.metadata
+.packages
+
+# Coverage reports
+coverage/
+
+# Generated files
+*.g.dart
+*.mocks.dart
