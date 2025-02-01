@@ -1,5 +1,6 @@
 import 'package:flutter/material.dart';
 import 'package:notes_app/models/note.dart';
+import 'package:notes_app/services/api_services.dart';
 import 'package:provider/provider.dart';
 import 'package:uuid/uuid.dart';
 
@@ -34,6 +35,7 @@ class _AddNewNoteState extends State<AddNewNote> {
   void updateNote(){
     widget.note!.title = titleController.text;
     widget.note!.content = contentController.text;
+    widget.note!.dateAdded = DateTime.now();
     Provider.of<NotesProvider>(context, listen: false).updateNote(widget.note!);
     Navigator.pop(context);
   }
