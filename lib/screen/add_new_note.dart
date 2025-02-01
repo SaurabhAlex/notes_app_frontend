@@ -1,6 +1,5 @@
 import 'package:flutter/material.dart';
 import 'package:notes_app/models/note.dart';
-import 'package:notes_app/services/api_services.dart';
 import 'package:provider/provider.dart';
 import 'package:uuid/uuid.dart';
 
