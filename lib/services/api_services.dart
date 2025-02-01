@@ -5,7 +5,7 @@ import 'package:notes_app/models/note.dart';
 import 'package:http/http.dart' as http;
 
 class APIServices {
-  static String baseUrl = "https://notes-app-backend-2lmk.onrender.com";
+  static String baseUrl = "https://your-backend-url.com/";
 
   static Future<void> addNote(Note note) async {
     Uri requestUri = Uri.parse('$baseUrl/add');
